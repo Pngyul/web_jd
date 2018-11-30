@@ -1,0 +1,161 @@
+.cc_captcha_help {
+	color: #666;
+	font-size: 14px;
+	height: 40px;
+	background: url("//verify.jd.com/static/gridcaptcha/img/cc_gap.png")
+		repeat scroll 0 0;
+	width: 350px;
+}
+
+.cc_captcha_right_char_tbl {
+	margin: auto;
+	border-style: none;
+}
+
+.cc_captcha_right_char_tbl td {
+	border-width: 0 0 0 0;
+	padding: 0;
+	bottom: 0;
+}
+
+.cc_text_emphasize {
+	color: red;
+}
+
+.popupCCContainer {
+	width: 100%;
+	text-align: center;
+}
+
+.popupCC {
+	background: #fff none repeat scroll 0 0;
+	clear: left;
+	overflow: hidden;
+	position: absolute;
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	width: 360px;
+	height: 380px;
+	left: 50%;
+	top: 50%;
+	margin: -190px 0 0 -180px;
+	box-sizing: border-box;
+}
+
+.popupCCShadow {
+	background: rgba(0, 0, 0, 0)
+		url("//verify.jd.com/static/gridcaptcha/img/mask.png") repeat scroll 0
+		0;
+	padding: 5px;
+}
+
+.popupCCFix {
+	position: fixed;
+}
+
+.popupCCImgDiv {
+	overflow: hidden;
+	position: relative;
+	width: 350px;
+	height: 248px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+.popupCCRightCharDiv {
+	overflow: hidden;
+	width: 69px;
+	height: 40px;
+}
+
+.popupCCCover {
+	overflow: hidden;
+	position: absolute;
+}
+
+.popupCCBottom {
+	overflow: hidden;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.popupCCBottomLeft {
+	float: left;
+	background: url("//verify.jd.com/static/gridcaptcha/img/cc_left.png")
+		repeat scroll 0 0;
+	background-size: cover;
+	width: 157px;
+	height: 36px;
+}
+
+.popupCCBottomCenter {
+	float: left;
+	background: url("//verify.jd.com/static/gridcaptcha/img/cc_mouseup.png")
+		no-repeat scroll 0 0;
+	background-size: cover;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.popupCCBottomRight {
+	float: left;
+	background: url("//verify.jd.com/static/gridcaptcha/img/cc_right.png")
+		repeat scroll 0 0;
+	background-size: cover;
+	width: 157px;
+	height: 36px;
+}
+
+.popupCCBottomShim {
+	background: url("//verify.jd.com/static/gridcaptcha/img/cc_gap.png")
+		repeat scroll 0 0;
+	width: 350px;
+	height: 9px;
+}
+
+.popupCCTitle {
+	background-color: #f8f8f8;
+	border-bottom: 0px solid #e6e6e6;
+	color: #333;
+	font: 700 14px/36px SimSun;
+	width: 350px;
+	height: 36px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.popupCCWrapper {
+	background-clip: content-box;
+	background-color: #fff;
+	border: 0px solid rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.popupCCClose {
+	background: url("//verify.jd.com/static/gridcaptcha/img/close.png")
+		no-repeat scroll 0 0;
+	float: right;
+	height: 13px;
+	line-height: normal;
+	margin: 10px 10px 9px 0;
+	overflow: hidden;
+	text-decoration: none;
+	width: 14px;
+	box-sizing: border-box;
+}
+
+.popupMask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: gray;
+	opacity: 0.6;
+}

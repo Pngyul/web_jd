@@ -1,0 +1,857 @@
+/* channel-home-textile/1.1.0 home-decoration.css Date:2017-08-10 19:41:51 */
+@charset "UTF-8"; 
+
+#categorys-2014 .dt, #search-2014 .button {
+	background: #a26742
+}
+
+#search-2014 .text {
+	border-color: #a26742
+}
+
+#nav-2014 {
+	border-bottom-color: #a26742
+}
+
+.m1 {
+	margin-bottom: 35px
+}
+
+.m1 .mt {
+	width: 100%
+}
+
+.m1 .mt-title {
+	float: left;
+	width: 250px;
+	height: 32px;
+	line-height: 32px;
+	padding-bottom: 5px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #6a451e
+}
+
+.m1 .mt-extra {
+	float: right;
+	width: 540px;
+	height: 32px;
+	overflow: hidden
+}
+
+.m1 .mt-extra .lh {
+	float: right
+}
+
+.m1 .mt-extra .lh li {
+	margin-left: 15px;
+	display: inline;
+	padding-top: 10px;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+	font-family: "宋体"
+}
+
+
+
+.m1 .mc {
+	border-top: 1px solid #6a451e
+}
+
+.m2 {
+	padding-top: 11px;
+	margin-top: -11px;
+	margin-bottom: 35px;
+	overflow: visible
+}
+
+.m2 .mt {
+	padding-bottom: 21px;
+	overflow: visible;
+	border-top: 1px solid #eee
+}
+
+.m2 .mt .mt-title {
+	width: 120px;
+	height: 22px;
+	line-height: 22px;
+	margin: -11px auto 0;
+	background: #fff;
+	text-align: center;
+	_position: relative
+}
+
+.m2 .mt strong {
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: #333
+}
+
+.home-textile-firstScreen {
+	position: relative;
+	height: 482px;
+	margin-bottom: 35px
+}
+
+.season-hots .mc {
+	height: 644px
+}
+
+.page {
+	margin: 20px auto 10px
+	
+}
+
+.season-hots-list {
+	float: left;
+	height: 634px;
+	padding: 10px 0 0;
+	margin-left: -28px;
+	overflow: hidden;
+	position: relative
+}
+
+.season-hots-list .p-img {
+	width: 215px;
+	height: 215px;
+	padding: 4px 5px 5px 4px
+}
+
+.season-hots-list .p-img img {
+	width: 215px;
+	height: 215px
+}
+
+.season-hots-list .p-name {
+	width: 205px;
+	height: 36px;
+	line-height: 18px;
+	margin: 0 auto 5px;
+	overflow: hidden
+}
+
+.season-hots-list .p-price {
+	border-top: 1px dashed #eee;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 10px;
+	position: relative;
+	color: #999
+}
+
+.season-hots-list .p-price strong {
+	color: #e4393c
+}
+
+.season-hots-list .p-price strong em {
+	padding-left: 2px;
+	font-size: 18px
+}
+
+.season-hots-list .p-price .buy-btn {
+	display: inline-block;
+	width: 70px;
+	height: 27px;
+	line-height: 27px;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background: #b1784e;
+	color: #fff
+}
+
+.season-hots-list .p-price .buy-btn:hover {
+	text-decoration: none
+}
+
+.season-hots-list li {
+	width: 224px;
+	height: 304px;
+	border: 1px solid #eee;
+	margin-left: 28px;
+	margin-bottom: 20px;
+	float: left;
+	display: inline;
+	-webkit-transition: border-color .5s;
+	-moz-transition: border-color .5s;
+	transition: border-color .5s
+}
+
+.season-hots-list li:hover {
+	border-color: #b1784e;
+	border-bottom-width: 3px;
+	margin-bottom: 18px
+}
+
+.chosen-activity .mc {
+	width: 100%;
+	height: 470px
+}
+
+.chosen-act-list {
+	width: 1216px;
+	padding: 10px 0 0;
+	margin: 0 -27px 0 1px
+}
+
+.chosen-act-list li {
+	width: 226px;
+	height: 460px;
+	margin-right: 28px;
+	float: left
+}
+
+.chosen-act-list li img {
+	width: 226px;
+	height: 460px
+}
+
+.floor-brand .floor-left {
+	width: 242px;
+	height: 466px;
+	float: left
+}
+
+.floor-brand .floor-center {
+	width: 747px;
+	height: 466px;
+	padding-left: 1px;
+	overflow: hidden;
+	float: left
+}
+
+.floor-brand .floor-right {
+	display: none;
+	width: 220px;
+	height: 466px;
+	float: left;
+	overflow: hidden
+}
+
+.floor-brand .floor-brand-list {
+	width: 100%;
+	overflow: hidden
+}
+
+.floor-brand .floor-brand-list li {
+	width: 248px;
+	height: 232px;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	float: left;
+	overflow: hidden
+}
+
+.floor-brand .floor-brand-list li img {
+	width: 249px;
+	height: 232px;
+	-webkit-transition: transform .35s ease-out;
+	-moz-transition: transform .35s ease-out;
+	transition: transform .35s ease-out
+}
+
+.floor-brand .floor-brand-list li:hover img {
+	-webkit-transform: translateX(-10px);
+	-moz-transform: translateX(-10px);
+	transform: translateX(-10px)
+}
+
+.floor-recommend .title {
+	width: 192px;
+	height: 28px;
+	line-height: 28px;
+	margin: 15px auto 0;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	-webkit-text-shadow: 1px 1px #ccc;
+	-moz-text-shadow: 1px 1px #ccc;
+	text-shadow: 1px 1px #ccc;
+	color: #333
+}
+
+.floor-recommend .floor-hot-words {
+	width: 216px;
+	margin: 10px 0 0 24px;
+	overflow: hidden
+}
+
+.floor-recommend .floor-hot-words li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-right: 15px;
+	line-height: 26px
+}
+
+.floor-recommend .floor-hot-words li .hl_red {
+	color: #e4393c
+}
+
+.floor-recommend .floor-hot-brands {
+	width: 198px;
+	height: 68px;
+	margin: 10px auto 5px;
+	overflow: hidden
+}
+
+.floor-recommend .floor-hot-brands li {
+	width: 95px;
+	height: 30px;
+	padding: 2px;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	margin-top: -1px;
+	margin-left: -1px;
+	float: left
+}
+
+.floor-grid .mc {
+	height: 481px;
+	position: relative;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee
+}
+
+.floor-grid .list1, .floor-grid .list2, .floor-grid .list3, .floor-grid .list4
+	{
+	position: absolute;
+	overflow: hidden
+}
+
+.floor-grid .list1 {
+	left: 0;
+	top: 0;
+	width: 240px;
+	height: 240px;
+	border-bottom: 1px solid #eee
+}
+
+.floor-grid .list1 img {
+	width: 240px;
+	height: 240px
+}
+
+.floor-grid .list2 {
+	left: 0;
+	top: 241px;
+	width: 240px;
+	height: 240px;
+	border-bottom: 1px solid #eee
+}
+
+.floor-grid .list3 {
+	left: 240px;
+	top: 0;
+	width: 526px;
+	height: 482px
+}
+
+.floor-grid .list3 li {
+	width: 525px;
+	height: 240px;
+	border-left: 1px solid #eee;
+	border-bottom: 1px solid #eee
+}
+
+.floor-grid .list4 {
+	width: 444px;
+	height: 482px;
+	left: 766px;
+	top: 0
+}
+
+.floor-grid .list4 li {
+	width: 181px;
+	height: 220px;
+	padding: 20px 20px 0;
+	border-left: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+	float: left
+}
+
+.floor-grid .list4 .p-img {
+	padding: 0 0 10px;
+	text-align: center
+}
+
+.floor-grid .list4 .p-name {
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden
+}
+
+.floor-grid .list4 .p-price {
+	height: 30px;
+	line-height: 30px;
+	color: #666
+}
+
+.floor-grid .list4 .p-price strong {
+	color: #e4393c
+}
+
+.floor-grid .list4 .p-price strong em {
+	padding-left: 3px;
+	font-size: 18px
+}
+
+.adbox {
+	position: relative;
+	margin-bottom: 20px;
+	width: 990px;
+	overflow: hidden
+}
+
+.root61 .season-hots-list {
+	margin-left: -20px
+}
+
+.root61 .season-hots-list li {
+	margin-left: 20px
+}
+
+.root61 .chosen-act-list {
+	width: 1230px;
+	margin-right: -20px;
+	margin-left: 0
+}
+
+.root61 .chosen-act-list li {
+	margin-right: 20px
+}
+
+.root61 .floor-brand .floor-right {
+	display: block
+}
+
+.root61 .floor-grid .list4 {
+	width: 442px
+}
+
+.root61 .floor-grid .list4 li {
+	width: 180px
+}
+
+.root61 .adbox {
+	width: 1210px
+}
+/* channel-home-textile/1.1.0 category.css Date:2017-08-22 09:57:46 */
+@charset "UTF-8"; 
+
+#sortlist {
+	position: relative;
+	z-index: 3;
+	width: 210px;
+	height: 482px;
+	background: #be794e
+}
+
+#sortlist .mc {
+	width: 210px;
+	height: 482px
+}
+
+#sortlist, #sortlist .mc {
+	overflow: visible
+}
+
+#sortlist .item {
+	position: relative;
+	z-index: 3;
+	*zoom: 1;
+	border-top: dotted 1px #e6e6e6;
+	margin: 0 10px
+}
+
+#sortlist .item .r_triangle {
+	border-left-color: #8c5634
+}
+
+#sortlist ul {
+	display: none;
+	position: absolute;
+	left: 206px;
+	top: 0;
+	z-index: 3;
+	zoom: 1;
+	width: 420px;
+	border: 1px solid #8c5634;
+	border-left: none;
+	background: #fbf9f6
+}
+
+#sortlist .item ul {
+	height: 89px
+}
+
+#sortlist .con:after, #sortlist .item:after, #sortlist ul:after {
+	content: '\20';
+	display: block;
+	clear: both
+}
+
+#sortlist h3 {
+	position: relative;
+	position: relative;
+	z-index: 3;
+	margin: 0 -10px;
+	height: 31px;
+	padding: 9px 0 0 10px;
+	line-height: 31px;
+	font-size: 14px;
+	font-weight: 400
+}
+
+#sortlist h3 a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'microsoft yahei'
+}
+
+#sortlist h3 a:hover {
+	text-decoration: underline
+}
+
+#sortlist b {
+	position: absolute;
+	left: 193px;
+	top: 10px;
+	width: 10px;
+	height: 32px;
+	font-family: \5b8b\4f53;
+	color: #f2e4dc
+}
+
+#sortlist .hover b {
+	display: none
+}
+
+#sortlist .con {
+	position: relative;
+	margin: 0 -10px;
+	padding: 0 0 7px 10px;
+	line-height: 25px;
+	zoom: 1;
+	overflow: hidden
+}
+
+#sortlist .fore5 .con {
+	height: auto
+}
+
+#sortlist .con a, #sortlist .item li span, #sortlist li a {
+	float: left;
+	overflow: hidden;
+	width: 60px;
+	height: 22px;
+	padding-left: 0;
+	margin-right: 5px;
+	line-height: 22px;
+	color: #fff
+}
+
+#sortlist .item li a {
+	float: left;
+	overflow: hidden;
+	width: 78px;
+	height: 22px;
+	padding-left: 20px;
+	line-height: 22px;
+	border-bottom: 1px solid #fbf9f6;
+	color: #666
+}
+
+#sortlist .item li a:hover {
+	color: #C81623
+}
+
+#sortlist .con a:hover {
+	text-decoration: underline
+}
+
+#sortlist .item li .whole {
+	width: 372px;
+	height: 26px;
+	line-height: 26px;
+	background: #fbf9f6;
+	font-weight: 700;
+	cursor: default;
+	padding-left: 20px;
+	padding-top: 8px
+}
+
+#sortlist .item li .whole:hover {
+	color: #666;
+	text-decoration: none
+}
+
+#sortlist .hover {
+	z-index: 5;
+	background: #8c5634
+}
+
+#sortlist .hover h3 {
+	z-index: 6;
+	background: #8c5634
+}
+
+#sortlist .hover .con {
+	z-index: 5;
+	color: #666;
+	background: #8c5634
+}
+
+#sortlist .hover ul {
+	display: block;
+	z-index: 4;
+	left: 200px;
+	top: 0;
+	background: #f7f7f7;
+	overflow: hidden
+}
+
+#sortlist .fore5 ul {
+	height: 112px
+}
+
+#sortlist .hover li {
+	*zoom: 1;
+	height: 86px;
+	overflow: hidden
+}
+
+#sortlist .hover li span {
+	color: #666
+}
+
+#sortlist .hover .con a {
+	color: #fff
+}
+
+#sortlist .hover .con a:hover {
+	text-decoration: underline
+}
+
+#sortlist .fore1 {
+	border-top: none
+}
+/* channel-home-textile/1.1.0 slider.css Date:2017-08-10 19:41:51 */
+@charset "UTF-8"; 
+
+.gc-slider, .gc-slider-content {
+	height: 482px;
+	width: 100%
+}
+
+.gc-slider {
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.gc-slider-item {
+	display: none;
+	opacity: 0;
+	height: 482px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	position: absolute;
+	overflow: hidden;
+	-webkit-transition: display .2s ease .2s, opacity .2s ease-out .2s;
+	-moz-transition: display .2s ease .2s, opacity .2s ease-out .2s;
+	transition: display .2s ease .2s, opacity .2s ease-out .2s
+}
+
+.gc-slider-item .i-wrap {
+	width: 990px;
+	height: 100%;
+	margin: 0 auto
+}
+
+.gc-slider-item .i-inner {
+	position: relative;
+	height: 100%;
+	width: 990px
+}
+
+.gc-slider-item .i-inner .i-img {
+	position: absolute;
+	display: block
+}
+
+.gc-slider-item .i-inner .i-img.site-1 {
+	left: 20px;
+	top: 20px
+}
+
+.gc-slider-item .i-inner .i-img.site-2 {
+	left: 380px;
+	top: 0
+}
+
+.gc-slider-item .i-inner .i-link {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background:
+		url(//misc.360buyimg.com/channel/home-textile/1.1.0/css/i/blank.gif)
+}
+
+.gc-slider-selected {
+	display: block;
+	opacity: 1;
+	z-index: 1
+}
+
+.gc-slider-trigger {
+	width: 990px;
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	z-index: 2;
+	height: 16px;
+	margin-left: -495px;
+	text-align: right;
+	font-size: 0
+}
+
+.gc-slider-trigger .trigger-item {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 14px;
+	height: 14px;
+	overflow: hidden;
+	margin: 0 15px 0 0;
+	border-radius: 50%;
+	background: #ccc;
+	background: rgba(150, 150, 150, .1);
+	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, .9), 0 1px 1px
+		rgba(0, 0, 0, .1) inset, 0 0 0 2px rgba(255, 255, 255, .9);
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, .9), 0 1px 1px
+		rgba(0, 0, 0, .1) inset, 0 0 0 2px rgba(255, 255, 255, .9);
+	box-shadow: 0 1px 1px rgba(255, 255, 255, .9), 0 1px 1px
+		rgba(0, 0, 0, .1) inset, 0 0 0 2px rgba(255, 255, 255, .9);
+	-webkit-transition: all .2s ease 0;
+	-moz-transition: all .2s ease 0;
+	transition: all .2s ease 0
+}
+
+.gc-slider-trigger .trigger-curr {
+	background: #6a451e;
+	background: rgba(106, 69, 30, .9)
+}
+
+.root61 .gc-slider-item .i-inner, .root61 .gc-slider-item .i-wrap {
+	width: 1210px
+}
+
+.root61 .gc-slider-item .i-inner .i-link2, .root61 .gc-slider-item .i-inner .i-link3
+	{
+	display: block
+}
+
+.root61 .gc-slider-trigger {
+	width: 1210px;
+	margin-left: -605px
+}
+/* channel-home-textile/1.1.0 adbox.css Date:2017-08-10 19:41:51 */
+.adbox {
+	width: 990px;
+	margin-bottom: 35px;
+	margin-top: -20px;
+	position: relative
+}
+
+.adbox .item img {
+	width: 990px
+}
+
+.root61 .adbox, .root61 .adbox .item img {
+	width: 1210px
+}
+/* channel-home-textile/1.1.0 categoryList.css Date:2017-08-10 19:41:51 */
+body #categorys-2014 {
+	width: 210px
+}
+
+body #categorys-2014 .dt a {
+	background: #a26742
+}
+
+.category-list {
+	overflow: hidden
+}
+
+.category-list .cat-item {
+	width: 198px;
+	float: left
+}
+
+.category-list .cat-title {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700;
+	color: #333
+}
+
+.category-list .cat-img {
+	text-align: center;
+	height: 80px;
+	padding-bottom: 15px
+}
+
+.category-list .cat-sublist {
+	padding: 2px 5px 0 20px;
+	border-right: 1px dotted #eaeaea;
+	padding-bottom: 400px;
+	margin-bottom: -400px
+}
+
+.category-list .cat-sublist a {
+	display: inline-block;
+	width: 84px;
+	height: 20px;
+	overflow: hidden;
+	line-height: 20px;
+	margin-bottom: 5px
+}
+
+.category-list .fore0 .cat-sublist {
+	padding-left: 19px;
+	border-left: 1px dotted #eaeaea
+}
+
+.root61 .category-list .cat-item {
+	width: 242px
+}
+
+.root61 .category-list .cat-sublist {
+	padding-left: 36px
+}
+
+.root61 .category-list .cat-sublist a {
+	width: 98px
+}
+
+.root61 .category-list .fore0 .cat-sublist {
+	padding-left: 35px
+}
+
+
+

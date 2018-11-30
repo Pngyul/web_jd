@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.page {
+	margin: 35px auto 10px
+}
+
+.p-wrap {
+	float: right
+}
+
+.page .p-wrap a {
+	border: 1px solid #ddd;
+	background-color: #f7f7f7;
+	color: #333;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	font-size: 14px;
+	padding: 0 14px;
+	margin-right: 5px
+}
+
+.disabled {
+	    background: #fff;
+        cursor: default
+}
+
+.page .disabled em {
+	color:#ccc
+}
+
+.page .p-wrap i {
+	color: #aaa;
+	font-size: 16px;
+	padding: 0 5px;
+	font-family: "\5b8b\4f53";
+	vertical-align: middle;
+}
+
+.page .p-wrap a.current {
+    border: 0 none;
+    background: #fff;
+    padding:1px 15px;
+    filter: none;
+    color: #e4393c;
+    cursor: default
+}
+

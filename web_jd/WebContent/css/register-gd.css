@@ -1,0 +1,288 @@
+.grid_captcha_popup {
+	margin: 21px;
+}
+
+.grid_captcha_pack {
+	margin-bottom: 15px;
+}
+
+.grid_captcha_element .grid_captcha_tip {
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+
+.grid_captcha_element .grid_captcha_img_wrap {
+	cursor: pointer;
+}
+
+.grid_captcha_element .grid_captcha_title {
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+.grid_captcha_element .grid_captcha_input_wrap {
+	display: inline-block;
+	position: relative;
+}
+
+.grid_captcha_element .grid_captcha_input_wrap input {
+	border: 1px solid #ccc;
+	height: 26px;
+	vertical-align: middle;
+	width: 98px;
+}
+
+.grid_captcha_element img {
+	vertical-align: middle;
+}
+
+.grid_captcha_element .grid_captcha_buttons a {
+	cursor: pointer;
+}
+
+.grid_captcha_element .grid_captcha_status {
+	display: block;
+	height: 12px;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+	width: 12px;
+}
+
+.grid_captcha_element .grid_captcha_correct {
+	background: rgba(0, 0, 0, 0)
+		url("//verify.jd.com/static/gridcaptcha/img/correct.png") no-repeat
+		scroll 0 0;
+}
+
+.grid_captcha_element .grid_captcha_error {
+	color: red;
+	height: 18px;
+	padding-left: 53px;
+}
+
+.grid_captcha_grid_head div {
+	float: left;
+}
+
+.grid_captcha_element .grid_captcha_grid_head .grid_captcha_title {
+	line-height: 26px;
+}
+
+.grid_captcha_element .grid_captcha_grid_input {
+	border: 1px solid #ccc;
+}
+
+.grid_captcha_grid_input div {
+	border-right: 1px solid #ddd;
+	height: 38px;
+	width: 45px;
+}
+
+.grid_captcha_grid_input .grid_captcha_backspace {
+	background: #ccc
+		url("//verify.jd.com/static/gridcaptcha/img/delete.png") no-repeat
+		scroll 0 0;
+	border-right: 0 none;
+	cursor: pointer;
+	width: 40px;
+}
+
+.grid_captcha_element .grid_captcha_grid_head .grid_captcha_status {
+	right: -20px;
+}
+
+.grid_captcha_element .grid_captcha_grid_content {
+	margin-left: 52px;
+}
+
+.grid_captcha_element .grid_captcha_grid_buttons {
+	margin-top: 5px;
+	width: 190px;
+}
+
+.grid_captcha_grid_buttons a {
+	border-color: #e0e0e0 #e0e0e0 #bfbfbf;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	float: left;
+	outline: 0 none;
+	height: 42px;
+	width: 54px;
+	overflow: hidden;
+	margin: 0 5px 5px 0;
+	box-sizing: border-box;
+}
+
+.grid_captcha_grid_buttons div {
+	cursor: pointer;
+	height: 42px;
+	width: 54px;
+}
+
+.grid_captcha_element .grid_captcha_grid_content .grid_captcha_img_wrap
+	{
+	background-position: 0 0;
+	display: inline-block;
+	height: 48px;
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 150px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_0 {
+	background-position: 0 -38px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_1 {
+	background-position: -53px -38px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_2 {
+	background-position: -97px -38px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_3 {
+	background-position: 0 -89px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_4 {
+	background-position: -53px -89px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_5 {
+	background-position: -97px -89px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_6 {
+	background-position: 0 -135px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_7 {
+	background-position: -53px -135px;
+}
+
+.grid_captcha_grid_content .grid_captcha_btn_8 {
+	background-position: -97px -135px;
+}
+
+.grid_captcha_element .grid_captcha_grid_content .grid_captcha_error {
+	height: auto;
+	margin-top: 5px;
+	padding-left: 0;
+}
+
+.grid_captcha_element .grid_captcha_help {
+	color: #666;
+	margin-top: 5px;
+}
+
+.grid_text_emphasize {
+	color: red;
+}
+
+.popupGridContainer {
+	width: 100%;
+	text-align: center;
+}
+
+.popupGrid {
+	background: #fff none repeat scroll 0 0;
+	clear: left;
+	overflow: hidden;
+	position: absolute;
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	z-index: 100000;
+	width: 356px;
+	height: 408px;
+	left: 50%;
+	top: 50%;
+	margin: -204px 0 0 -178px;
+	box-sizing: border-box;
+}
+
+.popupGridShadow {
+	background: rgba(0, 0, 0, 0)
+		url("//verify.jd.com/static/gridcaptcha/img/mask.png") repeat scroll 0
+		0;
+	padding: 5px;
+}
+
+.popupGridFix {
+	position: fixed;
+}
+
+.popupGrid .popupGridTitle {
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #e6e6e6;
+	color: #333;
+	font: 700 14px/36px SimSun;
+	height: 36px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.popupGrid .popupGridTitle img {
+	border: medium none;
+}
+
+.popupGridWrapper {
+	background-clip: content-box;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.popupGrid a.popupGridClose {
+	background: url("//verify.jd.com/static/gridcaptcha/img/close.png")
+		no-repeat scroll 0 0;
+	float: right;
+	height: 13px;
+	line-height: normal;
+	margin: 10px 10px 9px 0;
+	overflow: hidden;
+	text-decoration: none;
+	width: 14px;
+}
+
+.popupGrid a.popupGridClose:hover {
+	background-position: 0 -15px;
+}
+
+.popupMask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: gray;
+	opacity: 0.6;
+}
+
+.popupGrid .popupGridContent {
+	background: #fff none repeat scroll 0 0;
+	padding: 8.5px;
+	text-align: left;
+}
+
+.grid_captcha_img_change {
+	color: #2d64b3;
+	text-decoration: none;
+}
+
+.grid_clearfix {
+	
+}
+
+.grid_clearfix::after {
+	clear: both;
+	content: " ";
+	display: table;
+}

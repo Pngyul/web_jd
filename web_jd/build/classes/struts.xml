@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- # struts.objectFactory = spring 将action的创建交给spring容器 struts.objectFactory.spring.autoWire 
+		= name spring负责装配Action依赖属性 -->
+	<constant name="struts.objectFactory" value="spring"></constant>
+	<package name="jd" namespace="/" extends="struts-default">
+	
+	<!-- <interceptors>
+			<interceptor name="logininterceptor" class="com.pngyul.web.interceptor.LoginInterceptor"></interceptor>
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="logininterceptor">
+					<param name="excludeMethods">login,regist</param>
+				</interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+	</interceptors>
+	<default-interceptor-ref name="myStack"></default-interceptor-ref> -->
+	<!-- 定义全局结果集 -->
+	<global-results>
+		<result name="toLogin" type="redirect" >/login.jsp</result>
+	</global-results>
+	
+	<!-- 如果出现java.lang.RuntimeException异常,就将跳转到名为error的结果 -->
+ 	<global-exception-mappings>
+	<exception-mapping result="error" exception="java.lang.RuntimeException"></exception-mapping>
+	</global-exception-mappings> 
+		
+	<!-- 	<action name="CustomerAction_*" class="customerAction" method="{1}">
+			<result name="list">/jsp/customer/list.jsp</result>
+			<result name="toList" type="redirectAction">
+	             <param name="actionName">CustomerAction_list</param>
+	             <param name="namespace">/</param>
+	        </result>
+	        <result name="edit">/jsp/customer/add.jsp</result>
+	        <result name="industryOrSourceCount">/jsp/customer/industryCount.jsp</result>
+		</action> -->
+		
+		<action name="UserAction_*" class="userAction" method="{1}">
+			<result name="toHome" type="redirect">/index.jsp</result>
+	        <result name="error">/login.jsp</result>
+		</action>
+		
+		<action name="ProductAction_*" class="productAction" method="{1}">
+			<result name="list">/product_List.jsp</result>
+			<result name="toList" type="redirectAction">
+			     <param name="actionName">ProductAction_productList</param>
+                 <param name="namespace">/</param>
+                 <param name="currentPage">${currentPage }</param>
+            </result>
+		</action>
+		
+		<action name="CartItemAction_*" class="cartItemAction" method="{1}">
+			<result name="cart" type="redirect">/cart.jsp</result>
+		</action>
+		
+		<action name="CartAction_*" class="cartAction" method="{1}">
+			<result name="cart" type="redirect">/cart.jsp</result>
+		</action>
+		
+		<action name="OrderAction_*" class="orderAction" method="{1}">
+			<result name="orderInfo" type="redirect">/orderInfo.jsp</result>
+			<result name="cashier" type="redirect">/cashier.jsp</result>
+		</action>
+		
+	</package>
+</struts>
+	

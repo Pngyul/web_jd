@@ -1,0 +1,182 @@
+@charset "UTF-8";
+.bigbanner {
+    position: relative;
+}
+.bigbanner a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
+.main {
+    position: relative;
+    padding-bottom: 10px;
+
+}
+.slider {
+    width: 730px;
+    height: 453px;
+    background-color: pink;
+    margin: 12px 0 0  220px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.slider-main{
+    width: 1460px;
+    height: 453px;
+}
+.slider-main-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 730px;
+    height: 453px;
+}
+.circle{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+
+}
+.circle li{
+    width: 18px;
+    height: 18px;
+    float: left;
+    border-radius: 50%;
+    margin: 0 3px;
+    background: #3E3E3E;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    cursor: pointer;
+}
+.circle li.current {
+    background-color: #B61B1F;
+}
+.arrow-left,
+.arrow-right{
+    width: 28px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    font: 500 18px/62px "宋体";
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.2);
+    cursor: pointer;
+}
+.arrow-left{
+    left: 0;
+}
+.arrow-right{
+    right: 0;
+}.arrow-left:hover,.arrow-right:hover {
+     background: rgba(0,0,0,.4);
+     color: #fff;
+ }
+.news{
+    width: 248px;
+    height: 451px;
+    border: 1px solid #E4E4E4;
+    float: right;
+    margin-top: 12px;
+}
+.jd-news{
+    height: 200px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+.jd-news .dt,
+.lifeservice .dt{
+    height: 43px;
+    border-bottom: 1px dotted #E8E8E7;
+    line-height: 43px;
+}
+.jd-news .dt h3,
+.lifeservice .dt h3{
+    float: left;
+    font: 14px/43px "microsoft yahei";
+    color: #666;
+    padding-left: 15px;
+}
+.jd-news .dt a{
+    float: right;
+    font: 13px/43px "宋体";
+    margin-right:15px;
+}
+.jd-news .dd ul{
+    padding: 8px 0 0 15px;
+}
+.jd-news .dd li{
+    line-height: 28px;
+}
+.jd-news .dd span{
+    font-weight: 700;
+    padding-right: 5px;
+}
+.lifeservice{
+    height: 251px;
+    overflow: hidden;
+    width: 248px;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice ul li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    float: left;
+    border-top: 0;
+    margin-left: -1px;
+}
+.lifeservice li a{
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 44px;
+    position: relative;
+
+}
+.lifeservice li i{
+    position: absolute;
+    top:12px;
+    left:18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon_lifeserv.png) no-repeat right top;
+}
+.lifeservice-icon2 a i {
+    background-position: right -25px;
+}
+.lifeservice li .song{
+    background: url(../images/song.png) no-repeat right top;
+}
+/*maina结束*/
+/*activity开始*/
+.activity{
+    position: relative;
+}
+.activityone{
+}
+
+.activityoneleft {
+    float: left;
+}
+.activityoneright{
+    float: right;
+    width:1000px;
+    height: 160px;
+}
+.activityoneright ul{
+    width:500%;
+    _width: 400%;
+}
+.activityoneright li{
+    float: left;
+    margin-right: 1px;
+}
