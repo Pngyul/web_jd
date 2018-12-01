@@ -1,0 +1,56 @@
+git log--pretty=oneline
+git log -1 显示最后一次提交信息
+git reset --hard HEAD^ 回退版本
+git reset --hard commit_id 
+git reflog 查看命令历史
+git diff HEAD -- file 查看工作区和版本库里面最新版本的区别
+git checkout -- file可以丢弃工作区的修改
+git reset HEAD <file>可以把暂存区的修改撤销掉（unstage）
+git rm file 用于删除一个文件,回复文件 git checkout -- file
+git remote add origin git@ 与本地仓库连接
+git push -u origin master 第一次推送master分支的所有内容
+git push origin master推送最新修改
+git clone git@ 克隆一个本地库
+git checkout -b dev 创建并切换到dev分支
+git branch 命令查看当前分支
+git branch <name>创建分支
+git checkout <name>切换分支
+git merge <name> 合并某分支到当前分支
+git branch -d <name>删除分支
+git log --graph 命令可以看到分支合并图
+
+git merge --no-ff -m "message" dev 准备合并dev分支，禁用Fast forward
+     合并后的历史有分支，能看出来曾经做过合并，
+     而fast forward合并就看不出来曾经做过合并。
+git log --graph --pretty=oneline --abbrev-commit 查看分支历史
+
+git stash apply恢复
+git stash drop来删除
+git stash pop，恢复的同时把stash内容也删了
+git stash 可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+git branch -d branchName 
+git branch -D <name>强行删除。
+
+git remote -v显示更详细的信息
+
+如果git pull提示no tracking information，
+则说明本地分支和远程分支的链接关系没有创建，
+用命令
+git branch --set-upstream-to <branch-name> origin/<branch-name>。一般只是第一次pull
+
+git checkout -b branch-name origin/branch-name 在本地创建和远程分支对应的分支
+
+git rebase 把本地未push的分叉提交历史整理成直线；
+
+git tag <tagname> 新建一个标签，默认为HEAD，也可以指定一个commit id
+git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+git tag可以查看所有标签。
+ps：标签总是和某个commit挂钩
+
+git push origin <tagname>可以推送一个本地标签
+git push origin --tags可以推送全部未推送过的本地标签；
+git tag -d <tagname>可以删除一个本地标签；
+git push origin :refs/tags/<tagname>可以删除一个远程标签
+
+git config --global color.ui true 输出看起来更醒目
+
