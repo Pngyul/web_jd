@@ -1,56 +1,56 @@
 git log--pretty=oneline
-git log -1 ÏÔÊ¾×îºóÒ»´ÎÌá½»ĞÅÏ¢
-git reset --hard HEAD^ »ØÍË°æ±¾
+git log -1 æ˜¾ç¤ºæœ€åä¸€æ¬¡æäº¤ä¿¡æ¯
+git reset --hard HEAD^ å›é€€ç‰ˆæœ¬
 git reset --hard commit_id 
-git reflog ²é¿´ÃüÁîÀúÊ·
-git diff HEAD -- file ²é¿´¹¤×÷ÇøºÍ°æ±¾¿âÀïÃæ×îĞÂ°æ±¾µÄÇø±ğ
-git checkout -- file¿ÉÒÔ¶ªÆú¹¤×÷ÇøµÄĞŞ¸Ä
-git reset HEAD <file>¿ÉÒÔ°ÑÔİ´æÇøµÄĞŞ¸Ä³·Ïúµô£¨unstage£©
-git rm file ÓÃÓÚÉ¾³ıÒ»¸öÎÄ¼ş,»Ø¸´ÎÄ¼ş git checkout -- file
-git remote add origin git@ Óë±¾µØ²Ö¿âÁ¬½Ó
-git push -u origin master µÚÒ»´ÎÍÆËÍmaster·ÖÖ§µÄËùÓĞÄÚÈİ
-git push origin masterÍÆËÍ×îĞÂĞŞ¸Ä
-git clone git@ ¿ËÂ¡Ò»¸ö±¾µØ¿â
-git checkout -b dev ´´½¨²¢ÇĞ»»µ½dev·ÖÖ§
-git branch ÃüÁî²é¿´µ±Ç°·ÖÖ§
-git branch <name>´´½¨·ÖÖ§
-git checkout <name>ÇĞ»»·ÖÖ§
-git merge <name> ºÏ²¢Ä³·ÖÖ§µ½µ±Ç°·ÖÖ§
-git branch -d <name>É¾³ı·ÖÖ§
-git log --graph ÃüÁî¿ÉÒÔ¿´µ½·ÖÖ§ºÏ²¢Í¼
+git reflog æŸ¥çœ‹å‘½ä»¤å†å²
+git diff HEAD -- file æŸ¥çœ‹å·¥ä½œåŒºå’Œç‰ˆæœ¬åº“é‡Œé¢æœ€æ–°ç‰ˆæœ¬çš„åŒºåˆ«
+git checkout -- fileå¯ä»¥ä¸¢å¼ƒå·¥ä½œåŒºçš„ä¿®æ”¹
+git reset HEAD <file>å¯ä»¥æŠŠæš‚å­˜åŒºçš„ä¿®æ”¹æ’¤é”€æ‰ï¼ˆunstageï¼‰
+git rm file ç”¨äºåˆ é™¤ä¸€ä¸ªæ–‡ä»¶,å›å¤æ–‡ä»¶ git checkout -- file
+git remote add origin git@ ä¸æœ¬åœ°ä»“åº“è¿æ¥
+git push -u origin master ç¬¬ä¸€æ¬¡æ¨é€masteråˆ†æ”¯çš„æ‰€æœ‰å†…å®¹
+git push origin masteræ¨é€æœ€æ–°ä¿®æ”¹
+git clone git@ å…‹éš†ä¸€ä¸ªæœ¬åœ°åº“
+git checkout -b dev åˆ›å»ºå¹¶åˆ‡æ¢åˆ°devåˆ†æ”¯
+git branch å‘½ä»¤æŸ¥çœ‹å½“å‰åˆ†æ”¯
+git branch <name>åˆ›å»ºåˆ†æ”¯
+git checkout <name>åˆ‡æ¢åˆ†æ”¯
+git merge <name> åˆå¹¶æŸåˆ†æ”¯åˆ°å½“å‰åˆ†æ”¯
+git branch -d <name>åˆ é™¤åˆ†æ”¯
+git log --graph å‘½ä»¤å¯ä»¥çœ‹åˆ°åˆ†æ”¯åˆå¹¶å›¾
 
-git merge --no-ff -m "message" dev ×¼±¸ºÏ²¢dev·ÖÖ§£¬½ûÓÃFast forward
-     ºÏ²¢ºóµÄÀúÊ·ÓĞ·ÖÖ§£¬ÄÜ¿´³öÀ´Ôø¾­×ö¹ıºÏ²¢£¬
-     ¶øfast forwardºÏ²¢¾Í¿´²»³öÀ´Ôø¾­×ö¹ıºÏ²¢¡£
-git log --graph --pretty=oneline --abbrev-commit ²é¿´·ÖÖ§ÀúÊ·
+git merge --no-ff -m "message" dev å‡†å¤‡åˆå¹¶devåˆ†æ”¯ï¼Œç¦ç”¨Fast forward
+     åˆå¹¶åçš„å†å²æœ‰åˆ†æ”¯ï¼Œèƒ½çœ‹å‡ºæ¥æ›¾ç»åšè¿‡åˆå¹¶ï¼Œ
+     è€Œfast forwardåˆå¹¶å°±çœ‹ä¸å‡ºæ¥æ›¾ç»åšè¿‡åˆå¹¶ã€‚
+git log --graph --pretty=oneline --abbrev-commit æŸ¥çœ‹åˆ†æ”¯å†å²
 
-git stash apply»Ö¸´
-git stash dropÀ´É¾³ı
-git stash pop£¬»Ö¸´µÄÍ¬Ê±°ÑstashÄÚÈİÒ²É¾ÁË
-git stash ¿ÉÒÔ°Ñµ±Ç°¹¤×÷ÏÖ³¡¡°´¢²Ø¡±ÆğÀ´£¬µÈÒÔºó»Ö¸´ÏÖ³¡ºó¼ÌĞø¹¤×÷
+git stash applyæ¢å¤
+git stash dropæ¥åˆ é™¤
+git stash popï¼Œæ¢å¤çš„åŒæ—¶æŠŠstashå†…å®¹ä¹Ÿåˆ äº†
+git stash å¯ä»¥æŠŠå½“å‰å·¥ä½œç°åœºâ€œå‚¨è—â€èµ·æ¥ï¼Œç­‰ä»¥åæ¢å¤ç°åœºåç»§ç»­å·¥ä½œ
 git branch -d branchName 
-git branch -D <name>Ç¿ĞĞÉ¾³ı¡£
+git branch -D <name>å¼ºè¡Œåˆ é™¤ã€‚
 
-git remote -vÏÔÊ¾¸üÏêÏ¸µÄĞÅÏ¢
+git remote -væ˜¾ç¤ºæ›´è¯¦ç»†çš„ä¿¡æ¯
 
-Èç¹ûgit pullÌáÊ¾no tracking information£¬
-ÔòËµÃ÷±¾µØ·ÖÖ§ºÍÔ¶³Ì·ÖÖ§µÄÁ´½Ó¹ØÏµÃ»ÓĞ´´½¨£¬
-ÓÃÃüÁî
-git branch --set-upstream-to <branch-name> origin/<branch-name>¡£Ò»°ãÖ»ÊÇµÚÒ»´Îpull
+å¦‚æœgit pullæç¤ºno tracking informationï¼Œ
+åˆ™è¯´æ˜æœ¬åœ°åˆ†æ”¯å’Œè¿œç¨‹åˆ†æ”¯çš„é“¾æ¥å…³ç³»æ²¡æœ‰åˆ›å»ºï¼Œ
+ç”¨å‘½ä»¤
+git branch --set-upstream-to <branch-name> origin/<branch-name>ã€‚ä¸€èˆ¬åªæ˜¯ç¬¬ä¸€æ¬¡pull
 
-git checkout -b branch-name origin/branch-name ÔÚ±¾µØ´´½¨ºÍÔ¶³Ì·ÖÖ§¶ÔÓ¦µÄ·ÖÖ§
+git checkout -b branch-name origin/branch-name åœ¨æœ¬åœ°åˆ›å»ºå’Œè¿œç¨‹åˆ†æ”¯å¯¹åº”çš„åˆ†æ”¯
 
-git rebase °Ñ±¾µØÎ´pushµÄ·Ö²æÌá½»ÀúÊ·ÕûÀí³ÉÖ±Ïß£»
+git rebase æŠŠæœ¬åœ°æœªpushçš„åˆ†å‰æäº¤å†å²æ•´ç†æˆç›´çº¿ï¼›
 
-git tag <tagname> ĞÂ½¨Ò»¸ö±êÇ©£¬Ä¬ÈÏÎªHEAD£¬Ò²¿ÉÒÔÖ¸¶¨Ò»¸öcommit id
-git tag -a <tagname> -m "blablabla..."¿ÉÒÔÖ¸¶¨±êÇ©ĞÅÏ¢£»
-git tag¿ÉÒÔ²é¿´ËùÓĞ±êÇ©¡£
-ps£º±êÇ©×ÜÊÇºÍÄ³¸öcommit¹Ò¹³
+git tag <tagname> æ–°å»ºä¸€ä¸ªæ ‡ç­¾ï¼Œé»˜è®¤ä¸ºHEADï¼Œä¹Ÿå¯ä»¥æŒ‡å®šä¸€ä¸ªcommit id
+git tag -a <tagname> -m "blablabla..."å¯ä»¥æŒ‡å®šæ ‡ç­¾ä¿¡æ¯ï¼›
+git tagå¯ä»¥æŸ¥çœ‹æ‰€æœ‰æ ‡ç­¾ã€‚
+psï¼šæ ‡ç­¾æ€»æ˜¯å’ŒæŸä¸ªcommitæŒ‚é’©
 
-git push origin <tagname>¿ÉÒÔÍÆËÍÒ»¸ö±¾µØ±êÇ©
-git push origin --tags¿ÉÒÔÍÆËÍÈ«²¿Î´ÍÆËÍ¹ıµÄ±¾µØ±êÇ©£»
-git tag -d <tagname>¿ÉÒÔÉ¾³ıÒ»¸ö±¾µØ±êÇ©£»
-git push origin :refs/tags/<tagname>¿ÉÒÔÉ¾³ıÒ»¸öÔ¶³Ì±êÇ©
+git push origin <tagname>å¯ä»¥æ¨é€ä¸€ä¸ªæœ¬åœ°æ ‡ç­¾
+git push origin --tagså¯ä»¥æ¨é€å…¨éƒ¨æœªæ¨é€è¿‡çš„æœ¬åœ°æ ‡ç­¾ï¼›
+git tag -d <tagname>å¯ä»¥åˆ é™¤ä¸€ä¸ªæœ¬åœ°æ ‡ç­¾ï¼›
+git push origin :refs/tags/<tagname>å¯ä»¥åˆ é™¤ä¸€ä¸ªè¿œç¨‹æ ‡ç­¾
 
-git config --global color.ui true Êä³ö¿´ÆğÀ´¸üĞÑÄ¿
-
+git config --global color.ui true è¾“å‡ºçœ‹èµ·æ¥æ›´é†’ç›®
+git wtf?
