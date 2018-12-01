@@ -1,56 +1,56 @@
 git log--pretty=oneline
-git log -1 ��ʾ���һ���ύ��Ϣ
-git reset --hard HEAD^ ���˰汾
+git log -1 显示最后一次提交信�?
+git reset --hard HEAD^ 回退版本
 git reset --hard commit_id 
-git reflog �鿴������ʷ
-git diff HEAD -- file �鿴�������Ͱ汾���������°汾������
-git checkout -- file���Զ������������޸�
-git reset HEAD <file>���԰��ݴ������޸ĳ�������unstage��
-git rm file ����ɾ��һ���ļ�,�ظ��ļ� git checkout -- file
-git remote add origin git@ �뱾�زֿ�����
-git push -u origin master ��һ������master��֧����������
-git push origin master���������޸�
-git clone git@ ��¡һ�����ؿ�
-git checkout -b dev �������л���dev��֧
-git branch ����鿴��ǰ��֧
-git branch <name>������֧
-git checkout <name>�л���֧
-git merge <name> �ϲ�ĳ��֧����ǰ��֧
-git branch -d <name>ɾ����֧
-git log --graph ������Կ�����֧�ϲ�ͼ
+git reflog 查看命令历史
+git diff HEAD -- file 查看工作区和版本库里面最新版本的区别
+git checkout -- file可以丢弃工作区的修改
+git reset HEAD <file>可以把暂存区的修改撤销掉（unstage�?
+git rm file 用于删除一个文�?回复文件 git checkout -- file
+git remote add origin git@ 与本地仓库连�?
+git push -u origin master 第一次推送master分支的所有内�?
+git push origin master推送最新修�?
+git clone git@ 克隆一个本地库
+git checkout -b dev 创建并切换到dev分支
+git branch 命令查看当前分支
+git branch <name>创建分支
+git checkout <name>切换分支
+git merge <name> 合并某分支到当前分支
+git branch -d <name>删除分支
+git log --graph 命令可以看到分支合并�?
 
-git merge --no-ff -m "message" dev ׼���ϲ�dev��֧������Fast forward
-     �ϲ������ʷ�з�֧���ܿ��������������ϲ���
-     ��fast forward�ϲ��Ϳ����������������ϲ���
-git log --graph --pretty=oneline --abbrev-commit �鿴��֧��ʷ
+git merge --no-ff -m "message" dev 准备合并dev分支，禁用Fast forward
+     合并后的历史有分支，能看出来曾经做过合并�?
+     而fast forward合并就看不出来曾经做过合并�?
+git log --graph --pretty=oneline --abbrev-commit 查看分支历史
 
-git stash apply�ָ�
-git stash drop��ɾ��
-git stash pop���ָ���ͬʱ��stash����Ҳɾ��
-git stash ���԰ѵ�ǰ�����ֳ������ء����������Ժ�ָ��ֳ����������
+git stash apply恢复
+git stash drop来删�?
+git stash pop，恢复的同时把stash内容也删�?
+git stash 可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
 git branch -d branchName 
-git branch -D <name>ǿ��ɾ����
+git branch -D <name>强行删除�?
 
-git remote -v��ʾ����ϸ����Ϣ
+git remote -v显示更详细的信息
 
-���git pull��ʾno tracking information��
-��˵�����ط�֧��Զ�̷�֧�����ӹ�ϵû�д�����
-������
-git branch --set-upstream-to <branch-name> origin/<branch-name>��һ��ֻ�ǵ�һ��pull
+如果git pull提示no tracking information�?
+则说明本地分支和远程分支的链接关系没有创建，
+用命�?
+git branch --set-upstream-to <branch-name> origin/<branch-name>。一般只是第一次pull
 
-git checkout -b branch-name origin/branch-name �ڱ��ش�����Զ�̷�֧��Ӧ�ķ�֧
+git checkout -b branch-name origin/branch-name 在本地创建和远程分支对应的分�?
 
-git rebase �ѱ���δpush�ķֲ��ύ��ʷ������ֱ�ߣ�
+git rebase 把本地未push的分叉提交历史整理成直线�?
 
-git tag <tagname> �½�һ����ǩ��Ĭ��ΪHEAD��Ҳ����ָ��һ��commit id
-git tag -a <tagname> -m "blablabla..."����ָ����ǩ��Ϣ��
-git tag���Բ鿴���б�ǩ��
-ps����ǩ���Ǻ�ĳ��commit�ҹ�
+git tag <tagname> 新建一个标签，默认为HEAD，也可以指定一个commit id
+git tag -a <tagname> -m "blablabla..."可以指定标签信息�?
+git tag可以查看所有标签�?
+ps：标签总是和某个commit挂钩
 
-git push origin <tagname>��������һ�����ر�ǩ
-git push origin --tags��������ȫ��δ���͹��ı��ر�ǩ��
-git tag -d <tagname>����ɾ��һ�����ر�ǩ��
-git push origin :refs/tags/<tagname>����ɾ��һ��Զ�̱�ǩ
+git push origin <tagname>可以推送一个本地标�?
+git push origin --tags可以推送全部未推送过的本地标签；
+git tag -d <tagname>可以删除一个本地标签；
+git push origin :refs/tags/<tagname>可以删除一个远程标�?
 
-git config --global color.ui true �������������Ŀ
-git wtf???
+git config --global color.ui true 输出看起来更醒目
+git wtf??
